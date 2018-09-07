@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
+    "webpack": "webpack -p",
+    "webpack:dev": "webpack -d",
     "dev-server": "webpack-dev-server"
   },
   "repository": {
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/tlomtadze/technicalAssigment#readme",
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.3.1",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
