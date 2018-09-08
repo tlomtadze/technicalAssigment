@@ -1,7 +1,7 @@
-# technicalAssigment
+# technicalAssigment;
 
-#please open public/index.html
+#please open public/index.html;
 
-#build tool webpack
+#build tool is - webpack;
 
-#original files scss and js are in src folder
+#original files scss and js(ts) are in src folder;
