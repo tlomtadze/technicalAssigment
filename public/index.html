@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Casino</title>
 </head>
@@ -42,7 +41,7 @@
 
     <div class="main-menu">
         <ul class="menu">
-            <li><a href="#">balance management</a></li>
+            <li class="active"><a href="#">balance management</a></li>
             <li><a href="#">transaction history</a></li>
             <li><a href="#">account details</a></li>
             <li><a href="#">access log</a></li>
@@ -50,7 +49,7 @@
             <li><a href="#">massaging</a></li>
         </ul>
         <ul class="subMenu">
-            <li><a href="#">cashier</a></li>
+            <li class="active"><a href="#">cashier</a></li>
             <li><a href="#">deposit</a></li>
             <li><a href="#">withdraw</a></li>
             <li><a href="#">card management</a></li>
@@ -58,10 +57,173 @@
     </div>
     <div class="main-box">
 
+
+        <div class="main-title">
+            account info
+        </div>
+        <table class="account-info">
+            <tr>
+                <td>username</td>
+                <td>username</td>
+            </tr>
+            <tr>
+                <td>user ID</td>
+                <td>8500</td>
+            </tr>
+            <tr>
+                <td>ID Verification:</td>
+                <td>
+                    Verifierd
+                    <span class="green"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Comomication Language:</td>
+                <td>
+                    <div class="account-lang" contenteditable="false">eng</div>
+                    <button id="account-lang-edit" class="btn edit">edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>status</td>
+                <td>Registrated</td>
+            </tr>
+        </table>
+        
+        <div class="main-title">
+            id document
+            <section>
+                <button class="btn" id="add">
+                    <span></span>
+                    Add New Document
+                </button>
+                <button class="btn" id="indtruction">
+                    <span>?</span>
+                    Indtruction
+                </button>
+            </section>
+        </div>
+        <table class="ID-document">
+            <thead>
+                <tr>
+                    <td>country</td>
+                    <td>Date Modified</td>
+                    <td>Document type</td>
+                    <td>Document #</td>
+                    <td>Personal ID</td>
+                    <td>Status</td>
+                    <td>Document copy</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>georgia</td>
+                    <td>31--1-2-15</td>
+                    <td>Personal ID</td>
+                    <td>999988775555</td>
+                    <td>09998877666</td>
+                    <td>Document copy</td>
+                    <td>
+                        <button class="btn update">update</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>georgia</td>
+                    <td>31--1-2-15</td>
+                    <td>Personal ID</td>
+                    <td>999988775555</td>
+                    <td>09998877666</td>
+                    <td>Document copy</td>
+                    <td>
+                        <button class="btn update">update</button>
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+        <div class="main-title">
+            Contact details
+        </div>
+        <table class="contact-details">
+            <tr>
+                <td>E-mail:</td>
+                <td>
+                    <span class="new-email">
+                        <input type="email" placeholder="New Email Address">
+                        <button class="btn" id="ok">ok</button><button class="btn" id="cancel">cancel</button>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>user ID</td>
+                <td>
+                    <div class="userId" contenteditable="false">995599538884</div>
+                    <button id="userIdEdit" class="btn edit">edit</button>
+                </td>
+            </tr>
+        </table>
+
     </div>
 
 </main>
-<footer></footer>
+<footer>
+    <section class="box-space-between">
+        <article>
+            <ul class="footNav">
+                <li><a href="#">News</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">security</a></li>
+            </ul>
+        </article>
+        <article>
+            <span class="circle">+18</span>
+            <span class="circle">+21</span>
+            <span class="circle">RGP</span>
+        </article>
+    </section>
+    <section class="box-space-between">
+        <article>
+            <a href="#" class="social"><img src="./images/facebook.png" alt="facebook"></a>
+            <a href="#" class="social"><img src="./images/twitter.png" alt="twitter"></a>
+            <a href="#" class="social"><img src="./images/G+.png" alt="Google+"></a>
+            <a href="#" class="social"><img src="./images/youtube.png" alt="youtube"></a>
+            <a href="#" class="social"><img src="./images/vk.png" alt="vk"></a>
+            <a href="#" class="social"><img src="./images/ok.png" alt="ok"></a>
+        </article>
+        <article>
+            <a href="tel:+995322711011" class="tel"><small>+995 32</small> 2711011</a>
+            <a href="tel:+995322364360" class="tel"><small>+995 32</small> 2364360</a>
+        </article>
+    </section>
+    <section class="box-space-between">
+        <article>
+            <img class="footImgs" src="./images/paybox.png" alt="paybox">
+            <img class="footImgs" src="./images/image1.png" alt="image">
+            <img class="footImgs" src="./images/tbcbank.png" alt="tbcbank">
+            <img class="footImgs" src="./images/pay.png" alt="pay.ge">
+            <img class="footImgs" src="./images/thawte.png" alt="thawte">
+        </article>
+        <article></article>
+    </section>
+
+    <section class="site-description">
+        Electronic games (Internet) is operated by "Geobet" LTD (license #19-06/072, Permit term until 26.12.2017) 26 May Square #1, Tbilisi Internet Bookmaking is operated by Contrast+"LTD (license #19-05/009, Permit term until 01.02.2017) 26 May Square #1, Tbilisi Hitman and Lara Croft: Tomb Raider are trademarks of Square Enix Ltd. All rights reserved  SHOOT!:© 2012 Rodston Ltd
+        <br><br>
+        THE DARK KNIGHT RISES and all related characters and elements are trademarks of and © DC Comics.(s13)
+    </section>
+    <section class="box-space-between bottom-side">
+        <article>© Casino. All rights reserved.</article>
+        <article>
+            Created by: 
+            <a href="https://singular.uk/" target="_blank">
+                <img src="./images/Singular-logo.png" alt="singular-logo">
+            </a> 
+        </article>
+    </section>
+</footer>
 
 <script src="bundle.js"></script>
 </body>
