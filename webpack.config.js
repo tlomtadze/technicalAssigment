@@ -1,7 +1,7 @@
 module.exports = {
-    entry: "./src/app.ts",
+    entry: "./src/scripts/app.ts",
     output: {
-        path: __dirname + "/public",
+        path: __dirname + "/public/assets",
         filename: "bundle.js"
     },
     devServer: {

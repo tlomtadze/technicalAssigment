@@ -13,7 +13,7 @@ a{
 
 
 body{
-    background: #000 url(../../public/images/background-ruletka.png) no-repeat;
+    background: #000 url(../../public/assets/images/background-ruletka.png) no-repeat;
     background-position: center top;
     background-size: 100% auto;
     font-family: arial;
@@ -60,7 +60,7 @@ body{
             color: #FFF;
             margin-right: auto;
             margin-left: 25px;
-            background: url(../../public/images/logo.png) no-repeat;
+            background: url(../../public/assets/images/logo.png) no-repeat;
         }
         form{
             display: flex;
@@ -400,15 +400,15 @@ body{
                         padding: 5px 20px 5px 40px;
                         background-color: #1c1c1c;
                         &.edit{
-                            background: url(../../public/images/pencil.png) no-repeat 20px center,linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.2) 65%);
+                            background: url(../../public/assets/images/pencil.png) no-repeat 20px center,linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.2) 65%);
                             &:hover{
-                                background: url(../../public/images/pencil.png) no-repeat 20px center,linear-gradient(to top, transparent 30%, rgba(0,0,0,0.2) 65%);
+                                background: url(../../public/assets/images/pencil.png) no-repeat 20px center,linear-gradient(to top, transparent 30%, rgba(0,0,0,0.2) 65%);
                             }
                         }
                         &.save{
-                            background: url(../../public/images/save.png) no-repeat 20px center,linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.2) 65%);
+                            background: url(../../public/assets/images/save.png) no-repeat 20px center,linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.2) 65%);
                             &:hover{
-                                background: url(../../public/images/save.png) no-repeat 20px center,linear-gradient(to top, transparent 30%, rgba(0,0,0,0.2) 65%);
+                                background: url(../../public/assets/images/save.png) no-repeat 20px center,linear-gradient(to top, transparent 30%, rgba(0,0,0,0.2) 65%);
                             }
                         }
                     }
