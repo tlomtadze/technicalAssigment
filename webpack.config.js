@@ -1,7 +1,7 @@
 module.exports = {
     entry: "./src/scripts/app.ts",
     output: {
-        path: __dirname + "/public/assets",
+        path: __dirname + "/public",
         filename: "bundle.js"
     },
     devServer: {
@@ -37,12 +37,10 @@ module.exports = {
         {
             test: /\.(gif|png|ttf|jpe?g|svg)$/i,
             use: [
-                'file-loader',
                 {
-                loader: 'image-webpack-loader',
+                loader: 'file-loader',
                 options: {
-                    bypassOnDebug: true,
-                    disable: true,
+                    name: 'images/[name].[ext]'
                 }
                 },
             ]
