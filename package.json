@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack -p",
     "webpack:dev": "webpack -d",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server -p"
   },
   "repository": {
     "type": "git",
