@@ -8,4 +8,4 @@
 
 -------------------------------
 
-#please open public/index.html
+#home page public/index.html
